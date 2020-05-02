@@ -1,0 +1,143 @@
+.box1
+{
+    background-color: lightgrey;
+    width: 700px;
+    border: 15px solid green;
+    padding: 20px;
+    height: 400px;
+    margin: auto;
+}
+
+
+  
+  .box1 select {
+    background-color: pink;
+    color: black;
+    
+    border: none;
+    
+ 
+    padding: 10px;
+    width: 250px;
+
+    font-size: 27px;
+    box-shadow: 2px 4px 30px rgba(167, 120, 120, 0);
+    -webkit-appearance: button;
+  }
+  
+  .box1::before {
+    font-family: FontAwesome;
+    position: absolute;
+    
+    text-align: center;
+    font-size: 28px;
+    line-height: 65px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    top: 2px;
+    right: 1px;
+    width: 25%;
+    height: 90%;
+  }
+  
+  .box1:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box1 select option {
+    padding: 20px;
+    background-color: white;
+  }
+  input[type=number] {
+    
+    margin: 10px 0;
+    border: none;
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 9px 25px;
+    color: black;
+  }
+  
+
+  body  {
+    background-image: url("image.png");
+
+  }
+  h2 {
+    background-color: black;
+    color: white;
+  }
+  h3{
+      text-align: center;
+  }
+ 
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: blue;
+    border: 3px solid #91C9FF;
+    outline: none;
+    transition: 3s ease-out;
+  }
+  
+ 
+  
+  .btn:hover {
+    transition: 2s ease-out;
+    background: #4F95DA;
+  }
+  svg {
+    position: absolute;
+    stroke: black;
+    transition: 2s ease-out;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -570;
+  }
+  
+  .btn span {
+    color: white;
+    
+  }
+  
+  ul {
+    list-style-type: squre;
+    padding: 3;
+    margin: 4;
+  }
+  
+ 
+  ul li {
+    border: 3px solid black;
+    margin-top: -2px; 
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration:honeydew;
+    font-size: 25px;
+    color: black;
+    display: block;
+    position: relative;
+  }
+  
+  
+  ul li:hover {
+    background-color: red;
+  }
+  
+  
+  .closable {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    padding: 15px 18px;
+    transform: translate(0%, -50%);
+  }
+  
+  .closable:hover {background: #bbb;}
+  
